@@ -20,7 +20,7 @@ def test_load_records_csv(tmp_path: Path) -> None:
 def test_load_records_json_list(tmp_path: Path) -> None:
     sample = tmp_path / "sample.json"
     sample.write_text(
-        "[{\"id\": 1, \"name\": \"Ana\", \"email\": \"a@example.com\", \"stage\": \"new\", \"last_contacted_at\": \"2026-01-01T10:00:00\"}]",
+        '[{"id": 1, "name": "Ana", "email": "a@example.com", "stage": "new", "last_contacted_at": "2026-01-01T10:00:00"}]',
         encoding="utf-8",
     )
 
@@ -33,7 +33,7 @@ def test_load_records_json_list(tmp_path: Path) -> None:
 def test_load_records_json_wrapped(tmp_path: Path) -> None:
     sample = tmp_path / "sample.json"
     sample.write_text(
-        "{\"candidates\": [{\"id\": 1, \"name\": \"Ana\", \"email\": \"a@example.com\", \"stage\": \"new\", \"last_contacted_at\": \"2026-01-01T10:00:00\"}]}",
+        '{"candidates": [{"id": 1, "name": "Ana", "email": "a@example.com", "stage": "new", "last_contacted_at": "2026-01-01T10:00:00"}]}',
         encoding="utf-8",
     )
 

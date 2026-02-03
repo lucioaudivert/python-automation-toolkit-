@@ -2,8 +2,9 @@
 
 from __future__ import annotations
 
+from collections.abc import Iterable
 from datetime import datetime
-from typing import ClassVar, Iterable
+from typing import ClassVar
 
 from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator
 
