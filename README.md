@@ -90,3 +90,5 @@ pytest
 ruff check .
 black .
 ```
+
+CI enabled
