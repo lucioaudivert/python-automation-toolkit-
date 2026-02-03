@@ -1,0 +1,35 @@
+[project]
+name = "python-automation-toolkit"
+version = "0.1.0"
+description = "CLI toolkit to validate and transform CSV/JSON data and generate reports."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Lucio" }]
+license = { text = "MIT" }
+keywords = ["automation", "cli", "data", "validation", "reporting"]
+dependencies = [
+  "pydantic[email]>=2.6",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "pytest-cov>=4.0",
+  "ruff>=0.4",
+  "black>=24.0",
+]
+
+[project.scripts]
+automation-toolkit = "automation_toolkit.cli:main"
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+addopts = "-q"

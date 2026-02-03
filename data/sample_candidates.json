@@ -1,0 +1,44 @@
+{
+  "candidates": [
+    {
+      "id": 101,
+      "name": "Camila Rios",
+      "email": "camila.rios@example.com",
+      "stage": "new",
+      "last_contacted_at": "2026-01-29T08:20:00",
+      "notes": "First outreach sent"
+    },
+    {
+      "id": 102,
+      "name": "Mateo Suarez",
+      "email": "mateo.suarez@example.com",
+      "stage": "screen",
+      "last_contacted_at": "2026-01-26T13:05:00",
+      "notes": "Screening call completed"
+    },
+    {
+      "id": 103,
+      "name": "Valentina Costa",
+      "email": "valentina.costa@example.com",
+      "stage": "interview",
+      "last_contacted_at": "2026-01-21T17:30:00",
+      "notes": "Interview feedback pending"
+    },
+    {
+      "id": 104,
+      "name": "Bruno Alvarez",
+      "email": "bruno.alvarez@example.com",
+      "stage": "offer",
+      "last_contacted_at": "2026-01-14T09:45:00",
+      "notes": "Offer drafted"
+    },
+    {
+      "id": 105,
+      "name": "Julieta Mendez",
+      "email": "julieta.mendez@example.com",
+      "stage": "hired",
+      "last_contacted_at": "2026-01-07T15:15:00",
+      "notes": "Start date confirmed"
+    }
+  ]
+}

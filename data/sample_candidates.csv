@@ -1,0 +1,7 @@
+id,name,email,stage,last_contacted_at,notes
+1,ana lopez,ana.lopez@example.com,new,2026-01-28T10:30:00,Sent initial message
+2,marcos diaz,marcos.diaz@example.com,screen,2026-01-20T14:15:00,Phone screen scheduled
+3,lucia fernandez,lucia.fernandez@example.com,interview,2026-01-18T09:00:00,Panel interview completed
+4,diego torres,diego.torres@example.com,offer,2026-01-10T16:45:00,Offer sent via email
+5,sofia romero,sofia.romero@example.com,hired,2026-01-05T12:00:00,Start date confirmed
+6,renzo perez,renzo.perez@example.com,archived,2025-12-22T11:10:00,On hold
