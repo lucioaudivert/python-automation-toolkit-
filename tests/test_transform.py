@@ -1,6 +1,8 @@
 from datetime import date, datetime
 from pathlib import Path
 
+import pytest
+
 from automation_toolkit.models import Candidate
 from automation_toolkit.transform import transform_candidates, write_transformed
 

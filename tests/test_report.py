@@ -1,4 +1,5 @@
 from datetime import date, datetime
+from pathlib import Path
 
 from automation_toolkit.models import Candidate
 from automation_toolkit.report import build_report, render_report_text, write_report
